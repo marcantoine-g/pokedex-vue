@@ -118,7 +118,7 @@ export default {
 .container{
   position: relative;
   height: 100%;
-  background-image: url("wallpaper_poke3.jpg");
+  background-image: url("~/wallpaper_poke3.jpg");
   padding: 100px 0;
 }
 
