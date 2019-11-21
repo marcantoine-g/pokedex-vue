@@ -26,7 +26,7 @@ export default {};
   display: grid;
   grid-template-columns: 1% 1fr 1fr 1%;
   grid-template-rows: 1fr 1fr 1fr 50px;
-  background-image: url("pokedex-vue/pokeball_bg.svg");
+  background-image: url("/pokeball_bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20vw -20vh;
@@ -55,7 +55,7 @@ h2 {
 }
 .scroll {
   position: absolute;
-  background-image: url("pokedex-vue/scrollDown.svg");
+  background-image: url("/scrollDown.svg");
   background-size: contain;
   height: 50px;
   width: 50px;

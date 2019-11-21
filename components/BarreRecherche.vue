@@ -61,7 +61,7 @@ p{
     text-align: center;
 }
 .bouton_submit{
-    background-image: url("pokedex-vue/loupe.svg");
+    background-image: url("/loupe.svg");
     background-size: cover;
     border: none;
     background-color: rgba(0, 0, 0, 0);

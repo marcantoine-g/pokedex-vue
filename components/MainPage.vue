@@ -118,7 +118,7 @@ export default {
 .container{
   position: relative;
   height: 100%;
-  background-image: url("pokedex-vue/wallpaper_poke3.jpg");
+  background-image: url("/wallpaper_poke3.jpg");
   padding: 100px 0;
 }
 
@@ -142,7 +142,7 @@ export default {
   height: 50px;
   width: 50px;
   background-color: black;
-  background-image: url('pokedex-vue/arrow.svg');
+  background-image: url('/arrow.svg');
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
