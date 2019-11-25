@@ -96,15 +96,16 @@ h2 {
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .container {
     background-position: 0vw -10vh;
+    grid-template-columns: 5% 1fr 5%;
   }
   h1{
-    font-size: 100px;
+    font-size: 60px;
   }
   h2{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
