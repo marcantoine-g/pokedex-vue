@@ -72,7 +72,7 @@ export default {
         .then( response =>{
           this.pokemons.push({ "id" : response.data.id, "data": response.data});
           this.pokemons.sort((id1, id2)=>{
-            return id1.id > id2.id;
+            return id1.id > id2.id ? 1 : -1;
           });
         });
     }
